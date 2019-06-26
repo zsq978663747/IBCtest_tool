@@ -1,0 +1,2 @@
+URL='-u http://127.0.0.1:2014'
+cleos $URL system voteproducer prods voter boscorebos11 boscorebos12 boscorebos13 boscorebos14 boscoretokyo boscorebos15 boscorebos21 boscorebos22 boscorebos23 boscorebos24 boscorebos25 boscorebos31 boscorebos32 boscorebos33 boscorebos34 boscorebos35 boscorebos41 boscorebos42 boscorebos43 boscorebos44 boscorebos45 boscorebos51 boscorebos52 boscorebos53 boscorebos54 boscorebos55
