@@ -88,7 +88,7 @@ cleos $URL transfer eosio bos.airdrop "10000000 BOS"
 
 # step 12 create voter and bp account
 cleos $URL  system newaccount --stake-net "10.0000 BOS" --stake-cpu "100.0000 BOS" --buy-ram "10.0000 BOS"  eosio voter  EOS7rVBwUzNczTanG8t57apdbMVTbEHcbzTR6gbRpEKPL2Q9X8kWT
-cleos $URL transfer eosio voter "10000000.0000 BOS"
+cleos $URL transfer eosio voter "13000000.0000 BOS"
 cleos $URL system delegatebw voter voter "5000000.0000 BOS" "5000000.0000 BOS"
 
 cleos $URL system newaccount --stake-net "2.0000 BOS" --stake-cpu "800.0000 BOS" --buy-ram "1.0000 BOS" eosio bosiotpsbest EOS8NhELUmBV4YLUgNwDKo5karTVCRNyo5AhUZNhbwTa1mZFh9kuw EOS68EdHU7dH8E1Zj2aovS19SVGYgjA6aPwmXTM9Phb1qatB2i3Yh 
