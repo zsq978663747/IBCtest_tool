@@ -6,6 +6,7 @@ docker run -d \
 --network test-network \
 -p 2016:8888 \
 -p 2017:9876 \
+-p 2018:6001 \
 -v $PWD/bos_relay:/opt/eosio/bin/data-dir \
 boscore/ibc_plugin_bos:ibc-v1.0.7   \
 /opt/eosio/bin/nodeos --config-dir /opt/eosio/bin/data-dir/config --data-dir /opt/eosio/bin/data-dir/data --max-transaction-time=100000 --wasm-runtime wabt --genesis-json /opt/eosio/bin/data-dir/config/genesis.json
