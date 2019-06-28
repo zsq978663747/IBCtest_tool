@@ -1,0 +1,3 @@
+[submodule "BOS_chain/bos.contracts"]
+	path = BOS_chain/bos.contracts
+	url = https://github.com/boscore/bos.contract-prebuild.git
