@@ -2,7 +2,7 @@
 
 # step 4: set contract eosio.bios
 URL='-u http://127.0.0.1:2014'
-CONTRACTS_FOLDER='./bos.contract-prebuild' 
+CONTRACTS_FOLDER='./bos.contracts' 
 cleos $URL set contract eosio ${CONTRACTS_FOLDER}/eosio.bios -p eosio
 
 # step 5: create system accounts
