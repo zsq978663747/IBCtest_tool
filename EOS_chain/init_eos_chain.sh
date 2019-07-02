@@ -79,7 +79,7 @@ cleos $URL set contract eosio.wrap ${CONTRACTS_FOLDER}/eosio.wrap -x 1000 -p eos
 
 # step 12 create voter and bp account
 cleos $URL  system newaccount --stake-net "10.0000 EOS" --stake-cpu "100.0000 EOS" --buy-ram "10.0000 EOS"  eosio voter  EOS7rVBwUzNczTanG8t57apdbMVTbEHcbzTR6gbRpEKPL2Q9X8kWT
-cleos $URL transfer eosio voter "200000000.0000 EOS"
+cleos $URL transfer eosio voter "300000000.0000 EOS"
 cleos $URL system delegatebw voter voter "100000000.0000 EOS" "100000000.0000 EOS"
 
 
